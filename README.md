@@ -24,6 +24,9 @@ Analyze restaurant data to uncover insights about pricing, ratings, and customer
 ## 📁 Dataset
 Zomato restaurant dataset
 
+## 🚀 Streamlit Dashboard
+Interactive dashboard built using Streamlit to explore restaurant data by city, rating, and cuisines.
+
 ## 🚀 Conclusion
 This project demonstrates practical data cleaning, analysis, and visualization skills using real-world data.
 

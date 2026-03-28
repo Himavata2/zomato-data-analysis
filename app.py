@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.title("Zomato Data Analysis Dashboard")
+st.title("My Zomato Dashboard")
 
 df = pd.read_csv("zomato.csv", encoding='ISO-8859-1')
 
@@ -18,6 +18,8 @@ st.slider("Select Rating", 0.0, 5.0)
 rating = st.slider("Minimum Rating", 0.0, 5.0)
 
 filtered_df = df[df['Aggregate rating'] >= rating]
+
+st.slider("Select Rating", 0.0, 5.0)
 
 st.subheader("Rating Distribution")
 
