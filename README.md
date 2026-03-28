@@ -26,3 +26,6 @@ Zomato restaurant dataset
 
 ## 🚀 Conclusion
 This project demonstrates practical data cleaning, analysis, and visualization skills using real-world data.
+
+## 👨‍💻 Author
+Kumar Subham Barik
