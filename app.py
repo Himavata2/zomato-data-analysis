@@ -13,6 +13,12 @@ filtered_df = df[df['City'] == city]
 
 st.write(filtered_df.head())
 
+st.slider("Select Rating", 0.0, 5.0)
+
+rating = st.slider("Minimum Rating", 0.0, 5.0)
+
+filtered_df = df[df['Aggregate rating'] >= rating]
+
 st.subheader("Rating Distribution")
 
 st.bar_chart(filtered_df['Aggregate rating'].value_counts())
